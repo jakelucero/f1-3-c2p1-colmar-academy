@@ -1,0 +1,502 @@
+@media only screen and (min-width: 480px){
+html{
+  font-size: 16px;
+  font-family: 'Ovo', serif;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+}
+
+/* Header */
+header{
+  display: inline-block;
+  background-color: white;
+  height: 4rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+header .logo{
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+header img{
+  display: inline-block;
+  padding-left: 1.5rem;
+}
+
+nav{
+  display: inline-block;
+  padding-top: 1.5rem;
+}
+
+nav a{
+  padding: 1rem;
+  color: black;
+}
+
+.container nav{
+  margin-left: auto;
+  justify-content: center;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+/* Body1 */
+.body1{
+  background-color: #babbbc;
+  display: flex;
+}
+
+.body1 img{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+p{
+  justify-content: flex-start;
+}
+
+.button{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  width: 25rem;
+  background-color: #707070;
+  color: white;
+  transition: color 0 ease-in 100ms;
+  font-family: "Montserrat:700" serif;
+}
+
+.button:hover{
+  color: black;
+  background-color: white;
+}
+
+.button:active{
+  color: blue;
+}
+
+.button:visited{
+  color: maroon;
+}
+
+.banner1{
+  display: inline-flex;
+  padding-left: 1.5rem;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner1 span{
+  font-size: 1.5rem;
+}
+
+/* Body2 */
+.body2 img{
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+
+.content2{
+  width: 60%
+}
+
+.banner2{
+  background-color: #babbbc;
+  margin-left: 2rem;
+  width: 40%;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.info2 img{
+  width: 35%;
+  margin: auto;
+}
+
+.info2:nth-child(3n+0){
+  background-color: #babbbc;
+}
+
+.info2{
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: .5rem;
+}
+
+.title{
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.info-content {
+  justify-content: center;
+  padding-bottom: 7.5rem;
+}
+
+h3{
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.quote{
+  font-size: .75rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.readmore{
+  padding-top: .5rem;
+}
+
+.dummy{
+  padding-left: 2rem;
+}
+
+.content2 p{
+  padding-left: 1rem;
+}
+
+/* Body3 */
+.body3{
+  background-color: #babbbc;
+}
+
+.header3{
+  display: block;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 2rem 0;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+}
+
+.header span{
+  justify-content: center;
+}
+
+.classes{
+  display: inline-block;
+  padding: 2rem 72px;
+}
+
+.class{
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  width: 33%;
+}
+
+.class img{
+  height: auto;
+  width: 100%;
+}
+.classcontent{
+  padding-bottom: 1.5rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.row1{
+  display: flex;
+}
+
+.row2{
+  display: flex;
+}
+
+.classtype{
+  margin-bottom: 1.25rem;
+}
+
+.classtype span{
+  padding-left: 1.5rem;
+  font-weight: 500;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
+.courses{
+  margin-bottom: .5rem;
+}
+
+.courses span{
+  padding-left: 1.5rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.15rem;
+}
+
+.classcontent{
+  padding-left: 1.5rem;
+}
+
+/* Body4 */
+.body4{
+  display: flex;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header4{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  display: block;
+  font-size: 3rem;
+  text-align: right;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+}
+
+.header4 span{
+  justify-content: center;
+}
+
+.banner4{
+  display: inline-block;
+  padding-right: 1.5rem;
+  width: 60%;
+  padding-left: 1.5rem;
+}
+
+.title4{
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  font-size: 2rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* Side4 */
+
+.side4{
+  display: flex;
+  width: 40%;
+  padding-top: 6.25rem;
+}
+
+.sidecontainer4{
+  display: flex;
+}
+
+.sidetitle4{
+  display:inline-block;
+}
+
+.sidecontent4{
+  display: inline-block;
+}
+
+.sideflex{
+  display: inline-block;
+}
+
+video{
+  width: 100%;
+}
+
+.sidecontainer4 img{
+  width: 35%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.sideheader4 span{
+  font-size: 2rem;
+  font-style: bold;
+  display: block;
+  padding-bottom: 1rem;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.sidecontent4{
+  display: block;
+}
+
+.sideside4{
+  display: block;
+  padding-top: 2rem;
+}
+
+/* Footer */
+footer{
+  display: block;
+  width: 100%;
+  border: 1px grey solid;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.terms{
+  display: inline-block;
+}
+
+.footcontent{
+  display: flex;
+}
+
+.footcontent .copywrite{
+  margin-right: auto;
+}
+}
+
+/* Mobile CSS */
+.mobileheader{
+  height: 4rem;
+  display: flex;
+  margin-left: 12.5rem;
+}
+
+.mobileheaderimages{
+  justify-content: center;
+}
+
+.classbox{
+  padding: 1rem 1.5rem;
+  margin-bottom: .5rem;
+  border: 1px grey solid;
+  background-color: #babbbc;
+  font-size: 1.25rem;
+}
+
+.mobileclass{
+  padding-bottom: 2rem;
+}
+
+/* Mobile Changes */
+@media only screen and (max-width: 480px){
+  body{
+   font-family: 'Ovo', serif;
+  }
+  header .container{
+    display: none;
+  }
+  .container{
+    display: block;
+  }
+
+  .body1{
+    display: block;
+  }
+
+  .banner1{
+    display: block;
+    padding-left: 1rem;
+  }
+
+  .body1 img{
+    width: 100%;
+  }
+
+  h2{
+    padding: 2rem 0rem;
+    font-size: 3rem;
+  }
+
+  .banner1 span{
+    font-size: 1.75rem;
+  }
+
+  .button{
+    border: grey 1px solid;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    margin: 1.5rem 1rem 2rem 0;
+    padding: .75rem;
+  }
+
+  .banner2{
+    padding-left: 1rem;
+  }
+
+  .content2{
+    display: none;
+  }
+
+  .info2 img{
+    padding: 1rem 0rem;
+    width: 100%;
+  }
+
+  .info-content{
+    padding-left: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .info-content span{
+    font-size: 1.15rem;
+  }
+
+  .title{
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+  }
+
+  .readmore{
+    padding-top: .5rem;
+  }
+
+  .body3{
+    display: none;
+  }
+  .header4{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .title4{
+    display: none;
+  }
+
+  .content4{
+    display: none;
+  }
+
+  .side4{
+    display: none;
+  }
+
+  .banner4 video{
+    padding-bottom: 1.5rem;
+    width: 480px;
+  }
+
+  footer{
+    padding: 1rem;
+  }
+
+  .terms{
+    display: none;
+  }
+  }
+
+  @media only screen and (min-width: 480px){
+    .mobile4{
+      display: none;
+    }
+    .mobileheader{
+      display: none;
+    }
+    .mobileclass{
+      display: none;
+    }
+}
